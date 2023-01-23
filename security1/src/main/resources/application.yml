@@ -28,10 +28,15 @@ spring:
       client:
         registration:
           google:
-            client-id: 클라이언트ID
-            client-secret: 시크릿키
+            client-id: '{구글 client-id}'
+            client-secret: '{구글 client-secret}'
             scope:
             - email
             - profile
             
-            
+          facebook:
+            client-id: '{페이스북 client-id}'
+            client-secret: '{페이스북 client-secret}'
+            scope:
+            - email
+            - public_profile
