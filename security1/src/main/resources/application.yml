@@ -22,3 +22,16 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
     defer-datasource-initialization: true
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 클라이언트ID
+            client-secret: 시크릿키
+            scope:
+            - email
+            - profile
+            
+            
